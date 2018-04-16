@@ -18,8 +18,6 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-react-css-modules`,
         `gatsby-plugin-lodash`,
-        'gatsby-plugin-netlify-cms',
-        'gatsby-plugin-netlify',
         {
             resolve: `gatsby-source-filesystem`,
             options: {

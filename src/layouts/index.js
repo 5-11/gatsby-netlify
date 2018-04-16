@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Footer from '../components/footer/footer';
 import './index.css'
+import './assets/icons/style.css';
 
 const Layout = ({children, data}) => (
     <div>
@@ -25,6 +27,7 @@ const Layout = ({children, data}) => (
         >
             {children()}
         </div>
+        <Footer/>
     </div>
 );
 
