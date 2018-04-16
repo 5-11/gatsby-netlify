@@ -37,7 +37,13 @@ export const query = graphql`
                             name
                             company
                             title
-                            avatar
+                            avatar {
+                                src:childImageSharp{
+                                    sizes(maxWidth: 190) {
+                                        ...GatsbyImageSharpSizes
+                                    }
+                                }
+                            }
                         }
                     }
                 }

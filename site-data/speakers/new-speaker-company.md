@@ -2,6 +2,6 @@
 name: New Speaker
 title: Title
 company: Company
-avatar: ./neven-vucinic.png
+avatar: ./../images/neven-vucinic.png
 ---
 
