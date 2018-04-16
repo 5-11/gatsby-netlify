@@ -29,6 +29,25 @@ export const query = graphql`
                 }
             }
         }
-        
+        speakers: allFile(filter: {internal: {mediaType: {eq: "text/markdown"}}, sourceInstanceName: {eq: "speakers"}}) {
+            list: edges {
+                speaker:node {
+                    data:childMarkdownRemark {
+                        frontmatter {
+                            name
+                            company
+                            title
+                            avatar {
+                                src:childImageSharp{
+                                    sizes(maxWidth: 190) {
+                                        ...GatsbyImageSharpSizes
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 `
