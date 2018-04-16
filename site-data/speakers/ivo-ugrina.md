@@ -1,6 +1,7 @@
 ---
-title: dr.sc.
 name: Ivo Ugrina
+title: dr.sc.
 company: NVTEH / University of Split
-avatar: "./avatars/ivo-ugrina.png"
+avatar: /uploads/ivo-ugrina.png
 ---
+
