@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d309f11c-2c66-45a7-887c-febef4eb0f4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cms/cms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cms/widgets/customPathImage.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" afterPath="$PROJECT_DIR$/gatsby-config.js" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" afterPath="$PROJECT_DIR$/static/admin/config.yml" />
+      <change beforePath="$PROJECT_DIR$/site-data/speakers/new-speaker-company.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -287,6 +283,17 @@
             <path>
               <item name="gatsby-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-test" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-test" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+              <item name="speakers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64963000" />
+    <option name="totallyTimeSpent" value="65132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
@@ -434,13 +441,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -828,6 +828,17 @@
         <state relative-caret-position="440">
           <caret line="74" column="11" lean-forward="false" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/speakers/new-speaker-company.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

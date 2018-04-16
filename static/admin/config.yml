@@ -2,8 +2,6 @@ backend:
   name: github
   repo: 5-11/gatsby-netlify
 
-media_folder: site-data/images
-
 collections:
   - name: "speakers" # Used in routes, e.g., /admin/collections/blog
     label: "Speakers" # Used in the UI
