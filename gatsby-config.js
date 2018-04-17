@@ -1,11 +1,11 @@
-const navigation = require('./site-data/navigation');
-const schedule = require('./site-data/schedule/schedule');
+const navigation = require('./site-data/navigation/navigation');
+const header = require('./site-data/header/headerConfig');
 
 module.exports = {
     siteMetadata: {
         title: 'Gatsby Default Starter',
         navigation,
-        schedule
+        header
     },
     plugins: [
         'gatsby-plugin-react-helmet',

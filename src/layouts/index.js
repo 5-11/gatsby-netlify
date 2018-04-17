@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Header from './components/header/header'
+import Footer from './components/footer/footer';
+import Main from './components/main/main';
 
-import Header from '../components/header'
-import Footer from '../components/footer/footer';
-import './index.css'
+import 'milligram';
 import './assets/icons/style.css';
 
 const Layout = ({children, data}) => (
@@ -16,17 +17,17 @@ const Layout = ({children, data}) => (
                 {name: 'keywords', content: 'sample, something'},
             ]}
         />
-        <Header logo={data.logo} siteTitle={data.site.siteMetadata.title}/>
-        <div
-            style={{
-                margin: '0 auto',
-                maxWidth: 960,
-                padding: '0px 1.0875rem 1.45rem',
-                paddingTop: 0,
-            }}
-        >
+
+        <Header
+            logo={data.logo}
+            siteTitle={data.site.siteMetadata.title}
+            config={data.site.siteMetadata.header}
+        />
+
+        <Main>
             {children()}
-        </div>
+        </Main>
+
         <Footer/>
     </div>
 );
@@ -45,6 +46,9 @@ export const query = graphql`
                 navigation {
                     label
                     url
+                }
+                header {
+                    backgroundColor
                 }
             }
         }

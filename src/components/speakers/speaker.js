@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import styles from './styles.module.css';
+import styles from './speakers.module.scss';
 
 const Speaker = ({ avatar: {src}, name, title, company }) => {
     return (
         <div className={styles.speakerContainer}>
             <Img sizes={src.sizes} className={styles.image}/>
-            <div>
-                <h2>{name}</h2>
-                <h3>{title}</h3>
-                <h4>{company}</h4>
+            <div className={styles.about}>
+                <h2 className={styles.name}>{name}</h2>
+                <h3 className={styles.title}>{title}</h3>
+                <h4 className={styles.company}>{company}</h4>
             </div>
         </div>
     );

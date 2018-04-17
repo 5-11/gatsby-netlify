@@ -1,0 +1,55 @@
+.speakersListContainer {
+
+  h1 {
+    text-align: center;
+  }
+
+  .speakersList {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    .speakerContainer {
+      margin: 1em 1.25em;
+      -ms-flex-preferred-size: 190px;
+      flex-basis: 190px;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+      .image {
+        margin-bottom: .5em;
+        border-radius: 50%;
+      }
+
+      .about {
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        text-rendering: optimizeLegibility;
+        .name {
+          margin-bottom: 0.25em;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        .title {
+          margin-bottom: 0.35em;
+          font-size: 14px;
+          line-height: 1.25;
+          font-weight: 500;
+        }
+        .company {
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
