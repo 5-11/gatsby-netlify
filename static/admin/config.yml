@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: 5-11/gatsby-netlify
+  name: file-system
 
 media_folder: site-data/images
 
