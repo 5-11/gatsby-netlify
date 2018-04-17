@@ -1,6 +1,6 @@
 ---
 order: '1'
-group: Tech sponsors
+group: ''
 name: Coadria
 logo: ./../images/coadria-logo.png
 ---
