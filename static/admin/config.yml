@@ -19,7 +19,7 @@ collections:
     label: "Conference schedule" # Used in the UI
     folder: "site-data/schedule" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{speaker}}-{{talkName}}"
+    slug: "{{talkName}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Conference day name", name: "conferenceDay", widget: "string"}
       - {label: "Talk start date", name: "start", widget: "string"}
@@ -54,3 +54,71 @@ collections:
       - {label: "Link url", name: "url", widget: "string"}
       - {label: "logo", name: "logo", widget: "custompathimage", customMediaPath: "./../../images/", required: false}
       - {label: "Icon class (font awsome)", name: "iconClass", widget: "string", required: false}
+  ######################################################################################################################
+  ########################################## CONFIGS FOR PAGE ELEMENTS #################################################
+  ######################################################################################################################
+  - label: "Configs"
+    name: "configs"
+    files:
+      - label: "Header config"
+        name: "headerConfig"
+        file: "site-data/configs/headerConfig.json"
+        fields:
+          - label: Styles
+            name: styles
+            widget: object
+            fields:
+              - { label: Background color, name: backgrounColor, widget: string }
+          - label: Navigation links
+            name: navigationLinks
+            widget: list
+            fields:
+              - label: Navigation
+                name: navigation
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Url, name: url, widget: string}
+          - label: Icons
+            name: icons
+            widget: list
+            fields:
+              - label: Icon
+                name: icon
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Url, name: url, widget: string}
+                  - {label: Icon class, name: iconClass, widget: string, required: false}
+                  - {label: Image, name: image, widget: "custompathimage", customMediaPath: "./../images/", required: false }
+      - label: "Footer config"
+        name: "footerConfig"
+        file: "site-data/configs/footerConfig.json"
+        fields:
+          - label: Styles
+            name: styles
+            widget: object
+            fields:
+              - { label: Background color, name: backgrounColor, widget: string }
+          - label: Navigation links
+            name: navigationLinks
+            widget: list
+            fields:
+              - label: Navigation
+                name: navigation
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Url, name: url, widget: string}
+          - label: Icons
+            name: icons
+            widget: list
+            fields:
+              - label: Icon
+                name: icon
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Url, name: url, widget: string}
+                  - {label: Icon class, name: iconClass, widget: string, required: false}
+                  - {label: Image, name: image, widget: "custompathimage", customMediaPath: "./../images/", required: false }

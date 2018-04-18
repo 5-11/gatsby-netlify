@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Header from './components/header/header'
 import Footer from './components/footer/footer';
 import Main from './components/main/main';
-
 import 'milligram';
 import './assets/icons/style.css';
 
@@ -21,13 +20,13 @@ const Layout = ({children, data}) => (
         <Header
             logo={data.logo}
             siteTitle={data.site.siteMetadata.title}
-            config={data.site.siteMetadata.header}
+            config={data.headerConfig}
         />
 
         <Main>
             {children()}
         </Main>
-        <Footer links={data.footer.data}/>
+        <Footer links={data.footer.data} config={data.footerConfig}/>
     </div>
 );
 
@@ -46,15 +45,31 @@ export const query = graphql`
                     label
                     url
                 }
-                header {
-                    backgroundColor
-                }
             }
         }
         logo: file(id: {regex: "/logo/"}) {
             image: childImageSharp {
                 resolutions(width: 125, height: 125) {
                     ...GatsbyImageSharpResolutions
+                }
+            }
+        }
+        footerConfig: configsJson(id: {regex: "/footerConfig.json/"}) {
+            styles {
+                backgroundColor
+            }
+            navigationLinks {
+                navigation {
+                    label
+                    url
+                    iconClass
+                    image {
+                        src:childImageSharp{
+                            sizes(maxWidth: 60) {
+                                ...GatsbyImageSharpSizes
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -79,5 +94,25 @@ export const query = graphql`
                 }
             }
         }
+        headerConfig: configsJson(id: {regex: "/headerConfig.json/"}) {
+            styles {
+                backgroundColor
+            }
+        }
     }
 `
+
+/*icons {
+    icon {
+        label
+        url
+        iconClass
+        image {
+            src:childImageSharp{
+                sizes(maxWidth: 60) {
+                ...GatsbyImageSharpSizes
+                }
+            }
+        }
+    }
+}*/

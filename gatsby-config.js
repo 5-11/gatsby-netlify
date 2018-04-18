@@ -18,6 +18,7 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-react-css-modules`,
         `gatsby-plugin-lodash`,
+        `gatsby-transformer-json`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {

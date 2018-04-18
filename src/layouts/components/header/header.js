@@ -4,8 +4,8 @@ import Title from './components/title';
 import Navigation from './components/navigation';
 import styles from './header.module.scss';
 
-const Header = ({siteTitle, logo, config}) => (
-    <header style={{marginBottom: '1.45rem', ...config}}>
+const Header = ({siteTitle, logo, config: { styles = {}, ...config }}) => (
+    <header style={{marginBottom: '1.45rem', ...styles}}>
         <div className={styles.nav}>
             <Logo {...logo}/>
             <Title title={siteTitle}/>

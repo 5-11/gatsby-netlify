@@ -1,0 +1,31 @@
+{
+  "styles": {
+    "backgroundColor": "black"
+  },
+  "navigationLinks": [
+    {
+      "navigation": {
+        "label": "Facebook",
+        "url": "facebook.com",
+        "iconClass": "icon-facebook",
+        "image": "./../images/facebook-icon.png"
+      }
+    },
+    {
+      "navigation": {
+        "label": "Twitter",
+        "url": "twitter.com",
+        "iconClass": "icon-twitter",
+        "image": "./../images/twitter.png"
+      }
+    },
+    {
+      "navigation": {
+        "label": "Github",
+        "url": "github.com",
+        "iconClass": "icon-github",
+        "image": "./../images/github.png"
+      }
+    }
+  ]
+}

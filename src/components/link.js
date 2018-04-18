@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Link = ({ children, href, blank, className = '' }) => {
+const LinkComponent = ({ children, href, blank, className = '' }) => {
     const linkProps = {
         href,
         className,
@@ -14,4 +14,6 @@ const Link = ({ children, href, blank, className = '' }) => {
     )
 };
 
-export default Link;
+export const Link = LinkComponent;
+
+export default LinkComponent;

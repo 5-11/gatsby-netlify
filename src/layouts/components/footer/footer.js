@@ -1,19 +1,47 @@
 import React from 'react';
+import { Link } from "../../../components/link";
 
-const Footer = ({ links }) => {
+const Footer = ({ links, config: { styles = {}, ...config } }) => {
     return (
-        <footer className="footer">
-            <div className="container">
-                <div className="content has-text-centered">
-                    <p>
-                        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                    </p>
+        <footer className="footer" style={{...styles}}>
+            {config.navigationLinks &&
+                <div className="container">
+                    {config.navigationLinks.map(({label, url, iconClass}, index) => (
+                        <div key={index} className="content has-text-centered">
+                            <p>
+                                <Link href={url}>
+                                    {iconClass && <span className={iconClass}/>}
+                                    {label}
+                                </Link>
+                            </p>
+                        </div>
+                    ))}
                 </div>
-            </div>
+            }
         </footer>
     );
 };
+
+/*export const hfConfigFragmentQuery = graphql`
+    fragment hgConfig on RootQueryType {
+        footerConfig: configsJson(id: {regex: "/footerConfig.json/"}) {
+            backgroundColor
+            navigationLinks {
+                navigation {
+                    label
+                    url
+                    iconClass
+                    image {
+                        src:childImageSharp{
+                            sizes(maxWidth: 60) {
+                                ...GatsbyImageSharpSizes
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;*/
 
 export default Footer;
