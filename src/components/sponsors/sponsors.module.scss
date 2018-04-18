@@ -1,0 +1,29 @@
+.sponsorsGrid {
+  h1 {
+    text-align: center;
+  }
+  .sponsorsList {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    .sponsorContainer {
+      cursor: pointer;
+      max-width: 190px;
+      padding: .5em 2em;
+      .image {
+        max-width: 100%;
+        vertical-align: middle;
+        border-style: none;
+      }
+      .sponsor {
+        padding: .5em 2em;
+      }
+    }
+  }
+}

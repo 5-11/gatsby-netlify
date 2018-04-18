@@ -1,5 +1,5 @@
 ---
-order: '3'
+position: 3
 group: ''
 name: NVTEH
 logo: ./../images/nvteh-logo.png

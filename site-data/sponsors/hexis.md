@@ -1,5 +1,5 @@
 ---
-order: '2'
+position: 2
 group: ''
 name: Hexis
 logo: ./../images/hexis-logo.png

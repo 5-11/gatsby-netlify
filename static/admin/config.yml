@@ -33,24 +33,25 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{name}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Order", name: "order", widget: "string"}
+      - {label: "Order", name: "position", widget: "string"}
       - {
           label: "Sponsor group(gold, platinum, media...)",
           name: "group",
           widget: "select",
           required: false,
-          options: ['', 'Platinum', 'Gold', 'Silver', 'Media']
+          options: ['', 'Sponsors', 'Platinum', 'Gold', 'Silver', 'Media']
         }
       - {label: "Sponsor name", name: "name", widget: "string"}
       - {label: "Sponsor logo", name: "logo", widget: "custompathimage", customMediaPath: "./../images/"}
+      - {label: "Link url", name: "url", widget: "string"}
   - name: "footer-links" # Used in routes, e.g., /admin/collections/blog
     label: "Footer links" # Used in the UI
-    folder: "site-data/footer" # The path to the folder where the documents are stored
+    folder: "site-data/footer/links" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{label}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Order", name: "order", widget: "string"}
+      - {label: "Order", name: "position", widget: "string"}
       - {label: "Link label", name: "label", widget: "string"}
       - {label: "Link url", name: "url", widget: "string"}
-      - {label: "logo", name: "logo", widget: "custompathimage", customMediaPath: "./../images/", required: false}
+      - {label: "logo", name: "logo", widget: "custompathimage", customMediaPath: "./../../images/", required: false}
       - {label: "Icon class (font awsome)", name: "iconClass", widget: "string", required: false}

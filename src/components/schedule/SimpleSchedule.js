@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ConferenceDay from './components/conferenceDay';
-import {compose, get, map, memoize, groupBy, orderBy, first} from "lodash/fp";
+import {compose, get, map, memoize, groupBy, orderBy} from "lodash/fp";
 import styles from './schedule.module.scss';
 
 

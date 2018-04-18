@@ -1,8 +1,8 @@
 ---
-order: 2
+position: 2
 label: Github
 url: 'https://github.com/gaearon'
-logo: ./../images/neven-vucinic.png
+logo: ./../../images/neven-vucinic.png
 iconClass: icon-github
 ---
 

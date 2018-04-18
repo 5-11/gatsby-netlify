@@ -56,5 +56,25 @@ export const query = graphql`
                 }
             }
         }
+        sponsors: allFile(filter: {internal: {mediaType: {eq: "text/markdown"}}, dir: {regex: "/site-data/sponsors/"}}) {
+            list: edges {
+                sponsor:node {
+                    data:childMarkdownRemark {
+                        frontmatter {
+                            position
+                            group
+                            name
+                            logo {
+                                src:childImageSharp{
+                                    sizes(maxWidth: 190) {
+                                        ...GatsbyImageSharpSizes
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 `

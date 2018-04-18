@@ -27,8 +27,7 @@ const Layout = ({children, data}) => (
         <Main>
             {children()}
         </Main>
-
-        <Footer/>
+        <Footer links={data.footer.data}/>
     </div>
 );
 
@@ -56,6 +55,27 @@ export const query = graphql`
             image: childImageSharp {
                 resolutions(width: 125, height: 125) {
                     ...GatsbyImageSharpResolutions
+                }
+            }
+        }
+        footer: allFile(filter: {internal: {mediaType: {eq: "text/markdown"}}, dir: {regex: "/site-data\/footer\/links/"}}) {
+            data: edges {
+                link:node {
+                    data:childMarkdownRemark {
+                        frontmatter {
+                            position
+                            label
+                            url
+                            iconClass
+                            logo {
+                                src:childImageSharp{
+                                    sizes(maxWidth: 60) {
+                                        ...GatsbyImageSharpSizes
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

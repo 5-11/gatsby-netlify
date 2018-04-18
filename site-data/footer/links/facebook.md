@@ -1,8 +1,8 @@
 ---
-order: 1
+position: 1
 label: Facebook
 url: 'https://www.facebook.com/dev.javascript'
-logo: ./../images/neven-vucinic.png
+logo: ./../../images/neven-vucinic.png
 iconClass: icon-facebook
 ---
 

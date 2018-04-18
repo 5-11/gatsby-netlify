@@ -1,5 +1,5 @@
 ---
-order: '2'
+position: 2
 group: Media
 name: IT Biz Crunsh
 logo: ./../images/itbiz-logo.png
