@@ -2,27 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d309f11c-2c66-45a7-887c-febef4eb0f4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/TODO.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/link.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/sponsors/sponsors.module.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/sponsors/sponsorsGrid.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin" afterPath="$PROJECT_DIR$/admin" />
-      <change beforePath="$PROJECT_DIR$/site-data/footer/facebook.md" afterPath="$PROJECT_DIR$/site-data/footer/links/facebook.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/footer/github.md" afterPath="$PROJECT_DIR$/site-data/footer/links/github.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/footer/twitter.md" afterPath="$PROJECT_DIR$/site-data/footer/links/twitter.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/coadria.md" afterPath="$PROJECT_DIR$/site-data/sponsors/coadria.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/hexis.md" afterPath="$PROJECT_DIR$/site-data/sponsors/hexis.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/it-biz-crunsh.md" afterPath="$PROJECT_DIR$/site-data/sponsors/it-biz-crunsh.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/novi-list.md" afterPath="$PROJECT_DIR$/site-data/sponsors/novi-list.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/nvteh.md" afterPath="$PROJECT_DIR$/site-data/sponsors/nvteh.md" />
-      <change beforePath="$PROJECT_DIR$/site-data/sponsors/vidi.md" afterPath="$PROJECT_DIR$/site-data/sponsors/vidi.md" />
-      <change beforePath="$PROJECT_DIR$/src/components/schedule/SimpleSchedule.js" afterPath="$PROJECT_DIR$/src/components/schedule/SimpleSchedule.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/sponsors/sponsorsList.js" afterPath="$PROJECT_DIR$/src/components/sponsors/sponsorsList.js" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/footer/footer.js" afterPath="$PROJECT_DIR$/src/layouts/components/footer/footer.js" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" afterPath="$PROJECT_DIR$/src/layouts/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" afterPath="$PROJECT_DIR$/static/admin/config.yml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin" beforeDir="false" afterPath="$PROJECT_DIR$/admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/footer/facebook.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/footer/facebook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/footer/github.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/footer/github.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/footer/twitter.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/footer/twitter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/header/headerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/header/headerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/coadria-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/coadria-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/hexis-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/hexis-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/itbiz-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/itbiz-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/ivo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/ivo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/matko-abramovic.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/matko-abramovic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/neven-vucinic.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/neven-vucinic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/nick-larsen.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/nick-larsen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/nl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/nl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/nvteh-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/nvteh-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/images/vidi-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/images/vidi-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/navigation/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/-lunch-break.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/-lunch-break.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/-panel-discussion-infrastucture-cloud-vs-on-premises.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/-panel-discussion-infrastucture-cloud-vs-on-premises.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/-registration-and-cofee.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/-registration-and-cofee.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/-registration-and-coffee.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/-registration-and-coffee.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/domagoj-radovčić-business-process-automation-email-parsing-with-amazon-ses-and-sns.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/domagoj-radovčić-business-process-automation-email-parsing-with-amazon-ses-and-sns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/ivo-ugrina-introduction-to-aws.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/ivo-ugrina-introduction-to-aws.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/luka-kladarić-zero-downtime-datacenter-failovers-aka-switching-hosting-providers-for-dummies.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/luka-kladaric-zero-downtime-datacenter-failovers-aka-switching-hosting-providers-for-dummies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/neven-vučinić-best-practices-in-protecting-data-on-aws.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/neven-vucinic-best-practices-in-protecting-data-on-aws.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/nick-larsen-driving-value-with-aws-coadria-success-stories.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/nick-larsen-driving-value-with-aws-coadria-success-stories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/schedule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/vjekoslav-giacometti-machine-learning-in-production-image-search-deployment-on-aws.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/vjekoslav-giacometti-machine-learning-in-production-image-search-deployment-on-aws.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/schedule/vjeran-tuhtan-serverless-solutions-with-aws.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/schedule/vjeran-tuhtan-serverless-solutions-with-aws.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/speakers/new-speaker-company.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/speakers/new-speaker-company.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/speakers/nick-larsen-coadria.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/speakers/nick-larsen-coadria.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/speakers/third-speaker-compnay.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/speakers/third-speaker-compnay.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/speakers/četvrti-speaker-company.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/speakers/cetvrti-speaker-company.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/coadria.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/coadria.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/hexis.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/hexis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/it-biz-crunsh.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/it-biz-crunsh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/novi-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/novi-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/nvteh.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/nvteh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/sponsors/vidi.md" beforeDir="false" afterPath="$PROJECT_DIR$/site-data/sponsors/vidi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/cms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -128,16 +152,25 @@
                 <marker date="1523983508373" expanded="true" signature="2030:2134" ph="{...}" />
                 <marker date="1523983508373" expanded="true" signature="2075:2096" ph="GatsbyImageSharpSizes...GatsbyImageSharpSizes" />
               </folding>
+      <file leaf-file-name="fs-api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layouts/components/footer/footer.js">
+      <file leaf-file-name="luka-kladaric-zero-downtime-datacenter-failovers-aka-switching-hosting-providers-for-dummies.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site-data/schedule/luka-kladaric-zero-downtime-datacenter-failovers-aka-switching-hosting-providers-for-dummies.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="layer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/node_modules/express/lib/router/layer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="143">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -147,8 +180,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/node_modules/@types/node/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="2934" column="8" selection-start-line="2934" selection-start-column="8" selection-end-line="2934" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fs-express-api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-express-api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +216,34 @@
             <state relative-caret-position="1352">
               <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
+      <file leaf-file-name="new-speaker-company.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site-data/speakers/new-speaker-company.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="cetvrti-speaker-company.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site-data/speakers/cetvrti-speaker-company.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Server/Services/AppService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -192,6 +276,13 @@
       <find>gatsby-plugin-sass</find>
       <find>order</find>
       <find>select</find>
+      <find>exa</find>
+      <find>limit:</find>
+      <find>api/file/</find>
+      <find>stats.isFile</find>
+      <find>stats.isFile()</find>
+      <find>isFile</find>
+      <find>isFile(</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -207,6 +298,7 @@
       <dir>$PROJECT_DIR$/site-data/schedule</dir>
       <dir>$PROJECT_DIR$/site-data/sponsors</dir>
       <dir>$PROJECT_DIR$/site-data</dir>
+      <dir>$PROJECT_DIR$/admin/Server/Middlewares/fs</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -215,6 +307,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
+        <option value="$PROJECT_DIR$/static/admin/config.yaml" />
+        <option value="$PROJECT_DIR$/admin/config.yaml" />
+        <option value="$PROJECT_DIR$/src/pages/admin.js" />
+        <option value="$PROJECT_DIR$/src/cms/widgets/customPathImage.js" />
+        <option value="$PROJECT_DIR$/site-data/speakers/new-speaker-company.md" />
+        <option value="$PROJECT_DIR$/site-data/speakers/nick-larsen-coadria.md" />
+        <option value="$PROJECT_DIR$/static/admin/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/admin/package.json" />
         <option value="$PROJECT_DIR$/admin/Server/Modules/modules.js" />
@@ -224,7 +324,6 @@
         <option value="$PROJECT_DIR$/site-data/footer/facebook.md" />
         <option value="$PROJECT_DIR$/site-data/footer/github.md" />
         <option value="$PROJECT_DIR$/site-data/footer/twitter.md" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/site-data/header/headerConfig.js" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
@@ -264,8 +363,16 @@
         <option value="$PROJECT_DIR$/site-data/footer/links/github.md" />
         <option value="$PROJECT_DIR$/site-data/footer/links/twitter.md" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/layouts/index.js" />
         <option value="$PROJECT_DIR$/src/layouts/components/footer/footer.js" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/cms/cms.js" />
+        <option value="$PROJECT_DIR$/admin/Server/Services/AppService.js" />
+        <option value="$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-express-api.js" />
+        <option value="$PROJECT_DIR$/site-data/speakers/četvrti-speaker-company.md" />
+        <option value="$PROJECT_DIR$/admin/Server/Middlewares/index.js" />
+        <option value="$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-api.js" />
       </list>
     </option>
   </component>
@@ -282,33 +389,23 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
     <option name="y" value="1076" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="gatsby-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-test" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-netlify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-netlify" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-test" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +450,27 @@
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-netlify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-netlify" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-netlify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-netlify" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-netlify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-netlify" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+              <item name="speakers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-netlify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-netlify" type="462c0819:PsiDirectoryNode" />
+              <item name="site-data" type="462c0819:PsiDirectoryNode" />
+              <item name="sponsors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,6 +486,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netlify-cms-backend-fs" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="$PROJECT_DIR$/node_modules/prettier" />
@@ -376,19 +495,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/Server/Middlewares" />
+      <recent name="$PROJECT_DIR$/src/components/schedule" />
+      <recent name="$PROJECT_DIR$/src/layouts/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/components/schedule/styles" />
+      <recent name="$PROJECT_DIR$/site-data/speakers/avatars" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/site-data/footer/links" />
       <recent name="$PROJECT_DIR$/site-data/navigation" />
       <recent name="$PROJECT_DIR$/src/components/schedule/components" />
       <recent name="$PROJECT_DIR$/src/layouts/components" />
       <recent name="$PROJECT_DIR$/src/components/header/components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/schedule" />
-      <recent name="$PROJECT_DIR$/src/layouts/assets/icons" />
-      <recent name="$PROJECT_DIR$/src/components/schedule/styles" />
-      <recent name="$PROJECT_DIR$/site-data/speakers/avatars" />
-      <recent name="$PROJECT_DIR$/site-data/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,9 +521,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -428,6 +544,8 @@
       <workItem from="1523910196522" duration="3094000" />
       <workItem from="1523949098238" duration="30624000" />
       <workItem from="1524036836226" duration="1004000" />
+      <workItem from="1523949098238" duration="21824000" />
+      <workItem from="1523997935950" duration="3950000" />
     </task>
     <servers />
   </component>
@@ -479,6 +597,53 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    <option name="totallyTimeSpent" value="94939000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="1076" width="1920" height="1084" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.53556913" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20295203" />
+      <window_info anchor="bottom" id="Statistic" order="8" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="GraphQL" order="7" weight="0.23404256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15867159" />
+      <window_info anchor="bottom" id="GraphQL" order="7" weight="0.32879582" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32670158" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,10 +651,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/site-data/speakers/.md" />
@@ -519,6 +680,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -526,6 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -540,6 +713,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -577,27 +751,43 @@
             <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           </first_editor>
           <second_editor />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/speakers/nick-larsen-coadria.md" />
+    <entry file="file://$PROJECT_DIR$/site-data/speakers/third-speaker-compnay.md" />
     <entry file="file://$PROJECT_DIR$/admin/Server/Modules/modules.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/assets/icons/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="13" />
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/footer/facebook.md" />
+    <entry file="file://$PROJECT_DIR$/site-data/footer/github.md" />
+    <entry file="file://$PROJECT_DIR$/site-data/footer/twitter.md" />
     <entry file="file://$PROJECT_DIR$/site-data/header/headerConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="33" />
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/components/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -605,6 +795,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -619,6 +810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -626,6 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -651,9 +844,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="27" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/schedule/-lunch-break.md" />
     <entry file="file://$PROJECT_DIR$/src/layouts/components/header/header.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -668,13 +863,16 @@
             <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           </first_editor>
           <second_editor />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/schedule/-panel-discussion-infrastucture-cloud-vs-on-premises.md" />
     <entry file="file://$PROJECT_DIR$/src/components/schedule/schedule.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -684,6 +882,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/site-data/navigation/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -696,6 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -763,6 +963,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="260">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -770,6 +972,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="410">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#26#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,6 +985,8 @@
         <state relative-caret-position="52">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
           <folding />
+        <state relative-caret-position="364">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -785,6 +994,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="104">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -792,6 +1003,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,6 +1025,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="56">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -846,6 +1064,11 @@
             <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           </first_editor>
           <second_editor />
+        <state relative-caret-position="168">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +1169,41 @@
             <marker date="1523983508373" expanded="true" signature="2016:2024" ph="maxWidth...maxWidth" />
             <marker date="1523983508373" expanded="true" signature="2030:2134" ph="{...}" />
             <marker date="1523983508373" expanded="true" signature="2075:2096" ph="GatsbyImageSharpSizes...GatsbyImageSharpSizes" />
+        <state relative-caret-position="1596">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/widgets/filesystem/fs-backend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16815">
+          <caret column="18109" selection-start-column="18109" selection-end-column="18109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/cms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,9 +1230,78 @@
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+        <state relative-caret-position="392">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Server/Services/AppService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/speakers/new-speaker-company.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/speakers/cetvrti-speaker-company.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-express-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/node_modules/@types/node/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="2934" column="8" selection-start-line="2934" selection-start-column="8" selection-end-line="2934" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/schedule/schedule.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Server/Middlewares/fs/fs-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-data/schedule/luka-kladaric-zero-downtime-datacenter-failovers-aka-switching-hosting-providers-for-dummies.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

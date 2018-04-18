@@ -6,7 +6,7 @@ const Link = ({ children, href, blank, className = '' }) => {
         className,
         ...(blank) ? { target: '_blank', rel:"noopener noreferrer" } : {}
     };
-console.log(href, 'href');
+
     return (
         <a {...linkProps}>
             {children}

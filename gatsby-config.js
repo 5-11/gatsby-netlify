@@ -74,4 +74,8 @@ module.exports = {
             }
         }*/
     ],
+    proxy: {
+        prefix: "/api",
+        url: "http://localhost:4002",
+    },
 };
